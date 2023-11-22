@@ -1,8 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { useEffect, useState } from 'react'
+
 
 
 const ActivityItem = () => {
+
+    const [card,setCard] = useState();
   return (
     <Card style={{  }}>
       <Card.Body>
@@ -10,7 +14,7 @@ const ActivityItem = () => {
         <Card.Text>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at neque urna. 
         </Card.Text>
-        <Button variant="dark">Go somewhere</Button>
+        <Button variant="dark">Read more</Button>
       </Card.Body>
     </Card>
   )
