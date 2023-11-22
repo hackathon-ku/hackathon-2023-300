@@ -20,6 +20,14 @@ const SubmissionPage = () => {
                         <Form.Label>สถานที่จัดกิจกรรม</Form.Label>
                         <Form.Control placeholder='กรอกสถานที่จัดกิจกรรม' />
                     </Form.Group>
+                    <Form.Group className="mb-3" controlId="activity-place">
+                        <Form.Label>ประเภทกิจกรรม</Form.Label>
+                        <Form.Control placeholder='กรอกประเภทกิจกรรม' />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="activity-place">
+                        <Form.Label>จำนวนชั่วโมงกิจกรรมที่ได้</Form.Label>
+                        <Form.Control placeholder='กรอกชั่วโมงกิจกรรมที่ได้' />
+                    </Form.Group>
                     <Form.Group>
                         <Form.Label>รายละเอียดกิจกรรม</Form.Label>
                         <Form.Control placeholder='กรอกรายละเอียดกิจกรรม' as="textarea" rows={10} />

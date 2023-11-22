@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import axios from 'axios';
 
-const ActivityItem = () => {
+const ActivityItemAdmin = () => {
     const [activityData, setActivityData] = useState([]);
 
     useEffect(() => {
@@ -24,7 +24,9 @@ const ActivityItem = () => {
                       <Card.Text>
                         {item.body}
                       </Card.Text>
-                      <Button variant="primary" >read more</Button>
+                      <Button variant="primary">อ่านต่อ</Button>
+                      <Button variant="danger">ไม่ยอมรับ</Button>
+                      <Button variant="success">ยอมรับ</Button>
                     </Card.Body>
                   </Card>
             ))}
@@ -32,4 +34,4 @@ const ActivityItem = () => {
     );
 };
 
-export default ActivityItem;
+export default ActivityItemAdmin;

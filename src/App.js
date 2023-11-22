@@ -16,7 +16,6 @@ function App() {
   const [activeComponent, setActiveComponent] = useState("home")
 
   const renderComponent = () => {
-    console.log('changing component')
     switch (activeComponent) {
       case 'home':
         return ;
@@ -30,7 +29,7 @@ function App() {
   }
 
   return (
-      <div className="NisitKU+"> 
+      <div className="background"> 
         <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="">NisitKU+</Navbar.Brand>

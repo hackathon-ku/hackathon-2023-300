@@ -1,5 +1,5 @@
 import React from 'react'
-import ActivityItem from '../components/ActivityItem'
+import ActivityItemAdmin from '../components/ActivityItemAdmin'
 
 const AdminPage = () => {
     return (
@@ -11,7 +11,7 @@ const AdminPage = () => {
                 crossOrigin="anonymous" g
             />
 
-            <ActivityItem />
+            <ActivityItemAdmin />
 
 
         </>
