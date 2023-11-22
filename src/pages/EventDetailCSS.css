@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Istokweb-bold;
+    src: url(/Users/astrodoge/Downloads/Istok_Web/IstokWeb-Bold.ttf);
+}
+@font-face {
+    font-family: THR;
+    src: url(/Users/astrodoge/Downloads/th-sarabun-psk/THSarabun.ttf);
+}
+@font-face {
+    font-family: THB;
+    src: url(/Users/astrodoge/Downloads/th-sarabun-psk/THSarabun-Bold.ttf);
+}
+.NisitKU{
+    font-family: Istokweb-bold;
+    font-size: 18px;
+
+}
+.act-trans-title{
+    font-family: Istokweb-bold;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    font-family: THB;
+}
+.subheader{
+    font-family: THB;
+    font-size: 16px;
+}
+.context {
+    font-family: THR;    
+    font-size : 12px;
+    margin-left: 15px;
+}
+.context_indent{
+    font-family: THR;    
+    font-size : 12px;
+    margin-left: 30px;  
+}
+.bullet{
+    font-family: THR;    
+    font-size : 12px;
+    margin-left: 0px;
+}
+.context-center{
+    font-family: THR;    
+    font-size : 12px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
