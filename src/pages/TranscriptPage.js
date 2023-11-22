@@ -29,11 +29,6 @@ const TranscriptPage = () => {
       </Navbar>
     
       <ActivityItem/>
-      <ActivityItem/>
-      <ActivityItem/>
-      <ActivityItem/>
-      <ActivityItem/>
-      <ActivityItem/>
       
       
     </>
