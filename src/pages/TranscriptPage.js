@@ -13,19 +13,9 @@ const TranscriptPage = () => {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-        crossOrigin="anonymous"g
+        crossOrigin="anonymous"
       />
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="">NisitKU+</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="">Home</Nav.Link>
-            <Nav.Link href="">Admin page</Nav.Link>
-            <Nav.Link href="">Post</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    
+
       <ActivityItem/>
       
       
