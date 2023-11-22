@@ -1,45 +1,35 @@
+import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
-
-
 
 const ActivityItem = () => {
     const [activityData, setActivityData] = useState([]);
-    
+
     useEffect(() => {
         axios.get('http://localhost:5000/post-server')
-        .then((res)=>{
-            console.log(res.data);
-            if (activityData.length === 0){
+            .then((res) => {
                 setActivityData(res.data);
-            }
-            else{
-                return
-            }
-        })
-        .catch(err => console.log(err))
-        
-    },[activityData])
-    
-
-
-
+            })
+            .catch(err => console.log(err));
+    }, []);
 
     return (
         <>
-        {activityData.map((item) => {
-            console.log(item);
-            <p>{JSON.stringify(item)}</p>
-        })}
-        
+            {activityData.map((item) => (
+                    <Card className='m-5'>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                      <Card.Title>{item.Title}</Card.Title>
+                      <Card.Text>
+                        {item.body}
+                      </Card.Text>
+                      <Button variant="primary">read more</Button>
+                    </Card.Body>
+                  </Card>
+            ))}
         </>
-    )
+    );
+};
 
-}
-
-
-export default ActivityItem
+export default ActivityItem;
