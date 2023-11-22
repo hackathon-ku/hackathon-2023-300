@@ -34,17 +34,17 @@ const TranscriptPage = () => {
         <div class="card m-5">
           <div class="card m-2">
             <div className='card-body'>
-              activity 1
+              activity 2
             </div>
           </div>  
           <div class="card m-2">
             <div className='card-body'>
-              activity 1
+              activity 2
             </div>
           </div>  
           <div class="card m-2">
             <div className='card-body'>
-              activity 1
+              activity 2
             </div>
           </div>  
         </div>
