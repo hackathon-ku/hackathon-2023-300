@@ -3,6 +3,10 @@ import { Form, Button } from 'react-bootstrap';
 
 
 const SubmissionPage = () => {
+    const onClickHandler = () => {
+        
+    }
+
     return (
         <div>
             <h1 className='text-center'>Activity Submission Page</h1>
@@ -21,7 +25,7 @@ const SubmissionPage = () => {
                         <Form.Control placeholder='กรอกรายละเอียดกิจกรรม' as="textarea" rows={10} />
                     </Form.Group>
                 </Form>
-                <Button className="text-center" variant="success">ยอมรับ</Button>{' '}
+                <Button className="text-center" variant="success" onClick={onClickHandler}>ยอมรับ</Button>
             </div>
         </div>
     )
