@@ -1,18 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import TranscriptPage from './pages/TranscriptPage';
+import { Link } from "react-router-dom";
 
 
 function App() {
   return (
-    <Router>
-        <Routes>
-          <Route path="/">
-              <TranscriptPage/>
-          </Route>
-        </Routes>
-    </Router>
+      <div className="NisitKU+">
+        <h1>NisitKU+</h1>
+
+        <nav>
+          <ul>
+            <li><Link to="/transcript">Transcript Page</Link></li> 
+          </ul>
+        </nav>
+
+      </div>
   );
 }
 
