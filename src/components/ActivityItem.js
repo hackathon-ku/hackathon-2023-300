@@ -14,7 +14,7 @@ const ActivityItem = () => {
         <Card.Text>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at neque urna. 
         </Card.Text>
-        <Button variant="dark">Read more</Button>
+        <Button variant="dark">Read More</Button>
       </Card.Body>
     </Card>
   )
