@@ -1,54 +1,41 @@
 import React from 'react'
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import  ActivityItem  from '../components/ActivityItem'
+
+
 
 const TranscriptPage = () => {
   return (
     <>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></link>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <h2 class="navbar-brand" href="#">NisitKU</h2>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Activity Transcript</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Registration Planner</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <h1 className='center'>Activity Transcript</h1>
-      <div>
-        <div class="card m-5">
-          <div class="card m-2">
-            <div className='card-body'>
-              activity 2
-            </div>
-          </div>  
-          <div class="card m-2">
-            <div className='card-body'>
-              activity 2
-            </div>
-          </div>  
-          <div class="card m-2">
-            <div className='card-body'>
-              activity 2
-            </div>
-          </div>  
-        </div>
-      </div>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+      />
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">NisitKU+</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Admin page</Nav.Link>
+            <Nav.Link href="#pricing">Post</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    
+      <ActivityItem/>
+      <ActivityItem/>
+      <ActivityItem/>
+      <ActivityItem/>
+      <ActivityItem/>
+      <ActivityItem/>
+      
+      
     </>
   )
 }
