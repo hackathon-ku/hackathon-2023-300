@@ -1,16 +1,92 @@
 {
   "post-server": [
     {
-      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-      "id": 1,
-      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-      "userId": 1
+      "actName": "Programming Club Meeting",
+      "actPlace": "Computer Lab 302",
+      "actType": "Club Meeting",
+      "actHour": 2,
+      "actDetail": "Discussing upcoming coding competitions and projects.",
+      "id": 1
     },
     {
-      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
-      "id": 2,
-      "title": "qui est esse",
-      "userId": 1
+      "actName": "Basketball Tournament",
+      "actPlace": "Sports Complex",
+      "actType": "Sports Event",
+      "actHour": 4,
+      "actDetail": "Annual basketball tournament among college teams.",
+      "id": 2
+    },
+    {
+      "actName": "Science Exhibition",
+      "actPlace": "Science Building Atrium",
+      "actType": "Exhibition",
+      "actHour": 3,
+      "actDetail": "Showcasing innovative science projects by students.",
+      "id": 3
+    },
+    {
+      "actName": "Literary Club Poetry Night",
+      "actPlace": "Auditorium",
+      "actType": "Literary Event",
+      "actHour": 2,
+      "actDetail": "An evening of poetry readings and literary discussions.",
+      "id": 4
+    },
+    {
+      "actName": "Community Service Day",
+      "actPlace": "Various Locations",
+      "actType": "Community Service",
+      "actHour": 6,
+      "actDetail": "Students engage in community service projects across the city.",
+      "id": 5
+    },
+    {
+      "actName": "Music Band Practice",
+      "actPlace": "Music Room",
+      "actType": "Music Practice",
+      "actHour": 2,
+      "actDetail": "Rehearsing for the upcoming college music concert.",
+      "id": 6
+    },
+    {
+      "actName": "Debate Club Competition",
+      "actPlace": "Classroom 201",
+      "actType": "Debate Competition",
+      "actHour": 3,
+      "actDetail": "Inter-college debate competition on contemporary issues.",
+      "id": 7
+    },
+    {
+      "actName": "Career Guidance Seminar",
+      "actPlace": "Conference Hall",
+      "actType": "Seminar",
+      "actHour": 2,
+      "actDetail": "Experts provide insights into various career paths for students.",
+      "id": 8
+    },
+    {
+      "actName": "Art Exhibition",
+      "actPlace": "Art Gallery",
+      "actType": "Art Event",
+      "actHour": 4,
+      "actDetail": "Showcasing paintings, sculptures, and other artworks created by students.",
+      "id": 9
+    },
+    {
+      "actName": "Hackathon",
+      "actPlace": "Engineering Lab",
+      "actType": "Competition",
+      "actHour": 8,
+      "actDetail": "24-hour coding marathon to solve real-world problems.",
+      "id": 10
+    },
+    {
+      "id": "lpao4etzvwcghkavl1i",
+      "actName": "aa",
+      "actPlace": "aaa",
+      "actType": "aaa",
+      "actHour": "12",
+      "actDetail": "aaaa"
     }
   ]
 }

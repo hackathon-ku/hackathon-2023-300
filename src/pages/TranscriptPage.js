@@ -13,21 +13,12 @@ const TranscriptPage = () => {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+
         crossorigin="anonymous"
+
       />
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">NisitKU+</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Admin page</Nav.Link>
-            <Nav.Link href="#pricing">Post</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    
-      <ActivityItem props = "/eventDetail"/>
-      <ActivityItem />
+      <h3 className='text-center m-4'>All Activity</h3>
+
       <ActivityItem/>
       
       
