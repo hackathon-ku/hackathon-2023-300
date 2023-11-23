@@ -11,7 +11,7 @@ const ActivityItem = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/post-server')
+    axios.get('http://localhost:5000/post-server2')
       .then((res) => {
         setActivityData(res.data);
       })
