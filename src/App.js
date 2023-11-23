@@ -1,51 +1,48 @@
-import logo from './logo.svg';
-import './index.css';
-import { Link } from "react-router-dom";
-import SubmissionPage from './pages/SubmissionPage';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import { useEffect, useState } from 'react';
-import TranscriptPage from './pages/TranscriptPage';
-import AdminPage from './pages/AdminPage';
+import React, { useState } from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import HomePage from './pages/HomePage';
-
-
-
+import TranscriptPage from './pages/TranscriptPage';
+import SubmissionPage from './pages/SubmissionPage';
+import AdminPage from './pages/AdminPage';
 
 function App() {
-  const [activeComponent, setActiveComponent] = useState("home")
+  const [activeComponent, setActiveComponent] = useState('home');
 
   const renderComponent = () => {
     switch (activeComponent) {
       case 'home':
-        return <HomePage/>;
+        return <HomePage />;
       case 'transcript':
-        return <TranscriptPage/>;
+        return <TranscriptPage />;
       case 'post':
-        return <SubmissionPage/>;
+        return <SubmissionPage />;
       case 'admin':
-        return <AdminPage/>
+        return <AdminPage />;
+      default:
+        return null;
     }
-  }
+  };
 
   return (
-      <div className="background"> 
-        <Navbar bg="dark" data-bs-theme="dark">
+    <div className="background">
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="">NisitKU+</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link onClick={()=> setActiveComponent('home')}>Home</Nav.Link>
-            <Nav.Link onClick={()=> setActiveComponent('transcript')}>Activity</Nav.Link>
-            <Nav.Link onClick={()=> setActiveComponent('post')}>Post</Nav.Link>
-            <Nav.Link onClick={()=> setActiveComponent('admin')}>Admin</Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link onClick={() => setActiveComponent('home')}>Home</Nav.Link>
+              <Nav.Link onClick={() => setActiveComponent('transcript')}>Activity</Nav.Link>
+              <Nav.Link onClick={() => setActiveComponent('post')}>Post</Nav.Link>
+              <Nav.Link onClick={() => setActiveComponent('admin')}>Admin</Nav.Link>
+              {/* Add more Nav.Link items as needed */}
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-    
-    {renderComponent()}
 
-      </div>
+      {renderComponent()}
+    </div>
   );
 }
 

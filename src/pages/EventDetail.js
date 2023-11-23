@@ -1,6 +1,5 @@
 import React from 'react';
 import '../index.css'
-import InteractIMG from '../components/InteractIMG'
 import { Navbar, Nav } from 'react-bootstrap';
 
 function EventDetail() {
