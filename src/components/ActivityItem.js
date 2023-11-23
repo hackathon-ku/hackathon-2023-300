@@ -19,7 +19,7 @@ const ActivityItem = () => {
   return (
     <>
         {activityData.map((item) => (
-          <Card className='m-4 card-user' style={{borderRadius:"40px"}}>
+          <Card className='m-4 card-user' >
             <div className='img-container'>
               <button className='img-mockup'>Image here</button>
             </div>
@@ -29,7 +29,7 @@ const ActivityItem = () => {
                 {item.body}
               </Card.Text>
               <div className='d-flex justify-content-end'>
-                <Button variant="primary" style={{borderRadius:"40px"}}>read more</Button>
+                <Button variant="primary" >read more</Button>
               </div>
             </Card.Body>
           </Card>
@@ -37,5 +37,6 @@ const ActivityItem = () => {
       </>
       );
 };
+
 
       export default ActivityItem;
