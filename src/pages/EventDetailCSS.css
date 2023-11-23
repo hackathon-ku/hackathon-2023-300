@@ -1,15 +1,4 @@
-@font-face {
-    font-family: Istokweb-bold;
-    src: url(/Users/astrodoge/Downloads/Istok_Web/IstokWeb-Bold.ttf);
-}
-@font-face {
-    font-family: THR;
-    src: url(/Users/astrodoge/Downloads/th-sarabun-psk/THSarabun.ttf);
-}
-@font-face {
-    font-family: THB;
-    src: url(/Users/astrodoge/Downloads/th-sarabun-psk/THSarabun-Bold.ttf);
-}
+
 .NisitKU{
     font-family: Istokweb-bold;
     font-size: 32px;

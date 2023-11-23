@@ -32,7 +32,7 @@ const ActivityItem = () => {
             <p className='d-flex'><Card.Text>{item.actHour}</Card.Text>  ชั่วโมง</p>
             <Card.Text>{item.actPlace}</Card.Text>
             <div className='d-flex justify-content-end'>
-              <Button variant="success" >อ่านต่อ</Button>
+              <Button variant="success" href='/eventDetail' >อ่านต่อ</Button>
             </div>
           </Card.Body>
         </Card>
