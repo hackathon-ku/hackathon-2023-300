@@ -1,92 +1,84 @@
 {
   "post-server": [
     {
-      "actName": "Programming Club Meeting",
-      "actPlace": "Computer Lab 302",
-      "actType": "Club Meeting",
+      "actName": "บทเพลงสร้างสรรค์",
+      "actPlace": "สถาบันศิลปะและวัฒนธรรม",
+      "actType": "กิจกรรมมหาวิทยาลัย",
       "actHour": 2,
-      "actDetail": "Discussing upcoming coding competitions and projects.",
+      "actDetail": "พบกับการสร้างเนื้อเพลงและนำเสนอผลงานทางดนตรีที่เกิดจากความคิดสร้างสรรค์ของนักศึกษา",
       "id": 1
     },
     {
-      "actName": "Basketball Tournament",
-      "actPlace": "Sports Complex",
-      "actType": "Sports Event",
-      "actHour": 4,
-      "actDetail": "Annual basketball tournament among college teams.",
+      "actName": "อาสาสมัครเพื่อสังคม",
+      "actPlace": "บ้านเด็กกำพุภาค",
+      "actType": "กิจกรรมเพื่อสังคม",
+      "actHour": 3,
+      "actDetail": "ร่วมกับกลุ่มอาสาสมัครเพื่อช่วยเหลือและสร้างสังคมที่ดีในทุก ๆ มิติ",
       "id": 2
     },
     {
-      "actName": "Science Exhibition",
-      "actPlace": "Science Building Atrium",
-      "actType": "Exhibition",
-      "actHour": 3,
-      "actDetail": "Showcasing innovative science projects by students.",
+      "actName": "การสวมรองเท้ากางเกงสีชมพู",
+      "actPlace": "ลานหน้าหอประชุม",
+      "actType": "กิจกรรมสร้างสัมพันธ์และการสื่อสาร",
+      "actHour": 1,
+      "actDetail": "สนุกสนานกับการแข่งขันสวมรองเท้าและกางเกงสีชมพูที่สดใส",
       "id": 3
     },
     {
-      "actName": "Literary Club Poetry Night",
-      "actPlace": "Auditorium",
-      "actType": "Literary Event",
+      "actName": "ปิดท้ายปีด้วยการจัดเลี้ยง",
+      "actPlace": "ห้องอาหารคณะบริหารธุรกิจ",
+      "actType": "กิจกรรมเพื่อสังคม",
       "actHour": 2,
-      "actDetail": "An evening of poetry readings and literary discussions.",
+      "actDetail": "ปิดท้ายปีการศึกษาด้วยการจัดเลี้ยงและกิจกรรมความสนุกสนาน",
       "id": 4
     },
     {
-      "actName": "Community Service Day",
-      "actPlace": "Various Locations",
-      "actType": "Community Service",
-      "actHour": 6,
-      "actDetail": "Students engage in community service projects across the city.",
+      "actName": "อีเวนท์เทคโนโลยีและอนิเมชั่น",
+      "actPlace": "ห้องปฏิบัติการคณะเทคโนโลยีสารสนเทศ",
+      "actType": "กิจกรรมด้านพัฒนาทักษะการคิด",
+      "actHour": 1,
+      "actDetail": "นำเสนอผลงานอนิเมชั่นและเทคโนโลยีที่สร้างสรรค์จากนักศึกษา",
       "id": 5
     },
     {
-      "actName": "Music Band Practice",
-      "actPlace": "Music Room",
-      "actType": "Music Practice",
+      "actName": "การฝึกฝนยืมหนังสือและให้คำแนะนำ",
+      "actPlace": "ห้องสมุด",
+      "actType": "กิจกรรมสร้างสัมพันธ์และการสื่อสาร",
       "actHour": 2,
-      "actDetail": "Rehearsing for the upcoming college music concert.",
+      "actDetail": "สนับสนุนการศึกษาด้วยการให้คำแนะนำและยืมหนังสือในห้องสมุด",
       "id": 6
     },
     {
-      "actName": "Debate Club Competition",
-      "actPlace": "Classroom 201",
-      "actType": "Debate Competition",
+      "actName": "สัมมนาเสวนาเรื่องการเลี้ยงสัตว์เลี้ยง",
+      "actPlace": "อาคารวิจัยสัตวแพทยศาสตร์",
+      "actType": "กิจกรรมเพื่อสังคม",
       "actHour": 3,
-      "actDetail": "Inter-college debate competition on contemporary issues.",
+      "actDetail": "แบ่งปันความรู้และประสบการณ์ในการเลี้ยงสัตว์เลี้ยง",
       "id": 7
     },
     {
-      "actName": "Career Guidance Seminar",
-      "actPlace": "Conference Hall",
-      "actType": "Seminar",
+      "actName": "ประกวดการแสดงสดในที่ทำงาน",
+      "actPlace": "สนามแสดงสด",
+      "actType": "กิจกรรมเพื่อสังคม",
       "actHour": 2,
-      "actDetail": "Experts provide insights into various career paths for students.",
+      "actDetail": "นำเสนอทักษะแสดงสดและสร้างบรรยากาศการทำงานที่น่าสนใจ",
       "id": 8
     },
     {
-      "actName": "Art Exhibition",
-      "actPlace": "Art Gallery",
-      "actType": "Art Event",
-      "actHour": 4,
-      "actDetail": "Showcasing paintings, sculptures, and other artworks created by students.",
+      "actName": "การออกกำลังกายแบบโยคะ",
+      "actPlace": "สนามกีฬา",
+      "actType": "กิจกรรมด้านสุขภาพ",
+      "actHour": 1,
+      "actDetail": "ฝึกฝนโยคะเพื่อเสริมสร้างสุขภาพที่ดีและลดความเครียด",
       "id": 9
     },
     {
-      "actName": "Hackathon",
-      "actPlace": "Engineering Lab",
-      "actType": "Competition",
-      "actHour": 8,
-      "actDetail": "24-hour coding marathon to solve real-world problems.",
+      "actName": "กิจกรรมบำบัดด้วยอาหาร",
+      "actPlace": "ห้องปฏิบัติการโภชนาการ คณะสาธารณสุขศาสตร์",
+      "actType": "กิจกรรมเพื่อสังคม",
+      "actHour": 2,
+      "actDetail": "เรียนรู้การบำบัดด้วยอาหารที่เหมาะสมสำหรับสุขภาพทั้งร่างกายและจิตใจ",
       "id": 10
-    },
-    {
-      "id": "lpao4etzvwcghkavl1i",
-      "actName": "aa",
-      "actPlace": "aaa",
-      "actType": "aaa",
-      "actHour": "12",
-      "actDetail": "aaaa"
     }
   ]
 }
