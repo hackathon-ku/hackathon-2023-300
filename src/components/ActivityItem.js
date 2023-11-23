@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
 import axios from 'axios';
 import '../index.css';
+import { ArrowDown } from 'react-bootstrap-icons';
 
 const ActivityItem = () => {
   const [activityData, setActivityData] = useState([]);
@@ -39,10 +40,13 @@ const ActivityItem = () => {
             </Card.Title>
             <Card.Text className='text-start'>{item.actType} </Card.Text>
             <Card.Text className='text-start'>{item.actDate} </Card.Text>
+            <div className='d-flex justify-end'>
+              <ArrowDown onClick={() => handleToggle(index)}/>
+            </div>
             <Collapse in={openIndex === index}>
               <div>
                 <Card.Text>{item.actDetail}</Card.Text>
-                
+
                 <p className='d-flex justify-end'>
                   <Card.Text className='text-end'>{item.actHour} ชั่วโมง</Card.Text>
                 </p>
@@ -52,7 +56,7 @@ const ActivityItem = () => {
                 <Card.Text className='text-end'>{item.actPlace}</Card.Text>
                 <div className='d-flex justify-end'>
                   <Button
-                    variant="success" href='/eventDetail' 
+                    variant="success" href='/eventDetail'
                   >
                     อ่านต่อ
                   </Button>

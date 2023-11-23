@@ -3,7 +3,6 @@ import TranscriptPage from "./pages/TranscriptPage";
 import App from "./App";
 import EventDetail from "./pages/EventDetail";
 import SubmissionPage from "./pages/SubmissionPage";
-import AdminPage from "./pages/AdminPage";
 import HomePage from "./pages/HomePage";
 
 export const router = createBrowserRouter([
@@ -20,10 +19,6 @@ export const router = createBrowserRouter([
     {
         path: "/submissionPage",
         element:< SubmissionPage/>
-    },
-    {
-        path: "/adminPage",
-        element:< AdminPage/>
     },
     {
         path: "/homePage",

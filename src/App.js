@@ -13,6 +13,7 @@ import HomePage from './pages/HomePage';
 
 
 
+
 function App() {
   const [activeComponent, setActiveComponent] = useState("home")
 
@@ -38,7 +39,6 @@ function App() {
             <Nav.Link onClick={()=> setActiveComponent('home')}>Home</Nav.Link>
             <Nav.Link onClick={()=> setActiveComponent('transcript')}>Activity</Nav.Link>
             <Nav.Link onClick={()=> setActiveComponent('post')}>Post</Nav.Link>
-            <Nav.Link onClick={()=> setActiveComponent('admin')}>Admin</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
