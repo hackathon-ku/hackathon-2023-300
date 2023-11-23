@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './index.css';
 import { Link } from "react-router-dom";
 import SubmissionPage from './pages/SubmissionPage';
 import Nav from 'react-bootstrap/Nav';
@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import { useEffect, useState } from 'react';
 import TranscriptPage from './pages/TranscriptPage';
 import AdminPage from './pages/AdminPage';
+import HomePage from './pages/HomePage';
 
 
 
@@ -18,7 +19,7 @@ function App() {
   const renderComponent = () => {
     switch (activeComponent) {
       case 'home':
-        return ;
+        return <HomePage/>;
       case 'transcript':
         return <TranscriptPage/>;
       case 'post':

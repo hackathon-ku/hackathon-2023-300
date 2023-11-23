@@ -4,6 +4,7 @@ import App from "./App";
 import EventDetail from "./pages/EventDetail";
 import SubmissionPage from "./pages/SubmissionPage";
 import AdminPage from "./pages/AdminPage";
+import HomePage from "./pages/HomePage";
 
 export const router = createBrowserRouter([
     { path: "/", element: <App /> },
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
     {
         path: "/adminPage",
         element:< AdminPage/>
+    },
+    {
+        path: "/homePage",
+        element:< HomePage/>
     }
 
 ]);
