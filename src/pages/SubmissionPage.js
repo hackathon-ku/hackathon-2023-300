@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import axios from 'axios';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 const SubmissionPage = () => {
     const [actName, setActName] = useState("")
@@ -8,6 +10,8 @@ const SubmissionPage = () => {
     const [actType, setActType] = useState("")
     const [actHour, setActHour] = useState("")
     const [actDetail, setActDetail] = useState("")
+    const [actDate, setActDate] = useState("")
+    const [actDateEnd, setActDateEnd] = useState("")
 
     const handleInputChange = (e, setStateFunction) => {
         // Update the corresponding state with the input value
@@ -29,6 +33,8 @@ const SubmissionPage = () => {
                 actType,
                 actHour,
                 actDetail,
+                actDate,
+                actDateEnd
             };
             // Make a POST request using Axios
             const response = await axios.post('http://localhost:5000/post-server', data);
@@ -66,8 +72,16 @@ const SubmissionPage = () => {
                         <Form.Label>รายละเอียดกิจกรรม</Form.Label>
                         <Form.Control placeholder='กรอกรายละเอียดกิจกรรม' as="textarea" rows={10} value={actDetail} onChange={(e) => handleInputChange(e, setActDetail)} />
                     </Form.Group>
+                    <Form.Group>
+                        <Form.Label>วันที่เริ่มกิจกรรม</Form.Label>
+                        <DatePicker selected={actDate} onChange={(date) => setActDate(date)} />
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label>วันที่จบกิจกรรม</Form.Label>
+                        <DatePicker selected={actDateEnd} onChange={(date) => setActDateEnd(date)} />
+                    </Form.Group>
                 </Form>
-                <Button className="text-center" variant="success" onClick={onClickHandler}>ยอมรับ</Button>
+                <Button className="text-center" variant="success" onClick={onClickHandler} href='/'>ยอมรับ</Button>
             </div>
         </div>
     )
