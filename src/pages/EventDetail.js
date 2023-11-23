@@ -1,10 +1,24 @@
   import React from 'react';
   import './EventDetailCSS.css'
   import InteractIMG from '../components/InteractIMG'
+  import { Navbar, Nav } from 'react-bootstrap';
+
   function EventDetail() {
     return (
       <>
-        
+      
+        <Navbar bg="white" expand="lg">
+        <Navbar.Brand href="/" style={{ color: 'black' }}>NisitKU</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ color: 'black' }} />
+        <Navbar.Collapse id="basic-navbar-nav" bg="dark">
+          <Nav className="ml-auto">
+            <Nav.Link href="/transcript" style={{ color: 'black' }}>Home</Nav.Link>
+          
+            <Nav.Link href="/about" style={{ color: 'black' }}>About</Nav.Link>
+            {/* Add more Nav.Link items as needed */}
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
         <head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +26,6 @@
           <link rel="stylesheet" href="EventDetailCSS.css" />
         </head>
         <body>
-          <h1 className="NisitKU">NisitKU</h1>
 
           <header className="act-trans-title">Activity Transcript</header>
 
@@ -54,7 +67,7 @@
             <label className="context">สมัครได้ที่ <a href="https://kasets.art/ETL5LJ">https://kasets.art/ETL5LJ</a></label><br />
             <label className="context">หมวด กิจกรรมด้านพัฒนาสุขภาพ</label><br />
           </div>
-          <img className="center" src="https://i.postimg.cc/Xv9FPnmh/event1.png" width="222" height="315"/>
+          <img className="center" src="https://i.postimg.cc/Xv9FPnmh/event1.png" width="222" height="315" alt = "Event Deatil"/>
         </body>
         <InteractIMG imagePath="https://cdn.icon-icons.com/icons2/1674/PNG/512/arrowiosback_111116.png" to = "/"/>
       </>
