@@ -17,8 +17,7 @@ body {
 
 
 .background {
-  background-image: url(./pages/img/blurred-background.png);
-  background-position: center bottom;
+  background-color: rgb(131, 162, 143);
 }
 
 
