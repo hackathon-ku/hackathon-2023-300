@@ -36,7 +36,7 @@ function App() {
           <Navbar.Brand href="">NisitKU+</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={()=> setActiveComponent('home')}>Home</Nav.Link>
-            <Nav.Link onClick={()=> setActiveComponent('transcript')}>Transcript</Nav.Link>
+            <Nav.Link onClick={()=> setActiveComponent('transcript')}>Activity</Nav.Link>
             <Nav.Link onClick={()=> setActiveComponent('post')}>Post</Nav.Link>
             <Nav.Link onClick={()=> setActiveComponent('admin')}>Admin</Nav.Link>
           </Nav>

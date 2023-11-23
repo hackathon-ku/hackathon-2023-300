@@ -15,7 +15,7 @@ const TranscriptPage = () => {
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
         crossOrigin="anonymous"
       />
-      <h3 className='text-center m-4'>Transcript</h3>
+      <h3 className='text-center m-4'>All Activity</h3>
 
       <ActivityItem/>
       
