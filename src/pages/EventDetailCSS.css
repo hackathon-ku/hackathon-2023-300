@@ -25,6 +25,7 @@
 }
 .header{
     font-family: THB;
+    font-size : 28px;
 }
 .subheader{
     font-family: THB;
@@ -63,4 +64,8 @@ img{
     width: 36px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer; /* Change cursor on hover to indicate it's clickable */
+  }
+  /* In your CSS file */
+.navbar-dark .navbar-toggler-icon {
+    background-color: white; /* Set your desired background color */
   }
