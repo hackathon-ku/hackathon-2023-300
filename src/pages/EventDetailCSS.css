@@ -12,12 +12,12 @@
 }
 .NisitKU{
     font-family: Istokweb-bold;
-    font-size: 18px;
+    font-size: 32px;
 
 }
 .act-trans-title{
     font-family: Istokweb-bold;
-    font-size: 18px;
+    font-size: 32px;
     align-items: center;
     display: flex;
     align-items: center;
@@ -28,26 +28,26 @@
 }
 .subheader{
     font-family: THB;
-    font-size: 16px;
+    font-size: 28px;
 }
 .context {
     font-family: THR;    
-    font-size : 12px;
+    font-size : 24px;
     margin-left: 15px;
 }
 .context_indent{
     font-family: THR;    
-    font-size : 12px;
+    font-size : 24px;
     margin-left: 30px;  
 }
 .bullet{
     font-family: THR;    
-    font-size : 12px;
+    font-size : 24px;
     margin-left: 0px;
 }
 .context-center{
     font-family: THR;    
-    font-size : 12px;
+    font-size : 24px;
     align-items: center;
     display: flex;
     align-items: center;
@@ -59,3 +59,8 @@
   margin-right: auto;
   width: 50%;
 }
+img{    
+    width: 36px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor on hover to indicate it's clickable */
+  }
