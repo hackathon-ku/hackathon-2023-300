@@ -37,12 +37,17 @@ const ActivityItem = () => {
             >
               {item.actName}
             </Card.Title>
+            <Card.Text className='text-start'>{item.actType} </Card.Text>
+            <Card.Text className='text-start'>{item.actDate} </Card.Text>
             <Collapse in={openIndex === index}>
               <div>
                 <Card.Text>{item.actDetail}</Card.Text>
-                <Card.Text className='text-end'>{item.actType}</Card.Text>
+                
                 <p className='d-flex justify-end'>
                   <Card.Text className='text-end'>{item.actHour} ชั่วโมง</Card.Text>
+                </p>
+                <p className='d-flex justify-end'>
+
                 </p>
                 <Card.Text className='text-end'>{item.actPlace}</Card.Text>
                 <div className='d-flex justify-end'>
