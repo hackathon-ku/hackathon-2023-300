@@ -1,4 +1,5 @@
 import React from 'react'
+import ActivityItem from '../components/ActivityItem'
 
 const HomePage = () => {
     return (
@@ -19,8 +20,11 @@ const HomePage = () => {
                                     <div className="d-flex justify-content-center mb-2">
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
+                        <label>Past Activity</label>
+                        <ActivityItem/>
                     </div>
                 </div>
         </section >
