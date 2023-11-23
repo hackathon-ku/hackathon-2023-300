@@ -4,7 +4,7 @@ import ActivityItem from '../components/ActivityItem'
 const HomePage = () => {
     return (
         <>
-            <h1>NisitKU+</h1>
+            <h1 className='text-center m-4 fw-bold'>Profile</h1>
             <section style={{ backgroundColor: '#eee' }}>
                 <div className="container py-5">
 
@@ -25,7 +25,7 @@ const HomePage = () => {
                                             }}
                                         />
                                     </div>
-                                    <h5 className="my-3">John Smith</h5>
+                                    <h5 className="my-3">โจนาธาน สมิทธ์</h5>
                                     <p className="text-muted mb-1">คณะวิศกรรมศาสตร์ สาขาไฟฟ้า </p>
                                     <p className="text-muted mb-4">ชั้นปีที่ 4</p>
                                     <div className="d-flex justify-content-center mb-2">

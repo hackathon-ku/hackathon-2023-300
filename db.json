@@ -99,16 +99,6 @@
       "actDate": "2023-12-05",
       "actDateEnd": "2023-11-22",
       "id": 10
-    },
-    {
-      "id": "lpb21w0ivz95rcncobg",
-      "actName": "111",
-      "actPlace": "111",
-      "actType": "111",
-      "actHour": "111",
-      "actDetail": "1111",
-      "actDate": "2023-11-26T17:00:00.000Z",
-      "actDateEnd": "2023-11-27T17:00:00.000Z"
     }
   ]
 }
