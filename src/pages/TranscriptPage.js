@@ -17,7 +17,7 @@ const TranscriptPage = () => {
         crossorigin="anonymous"
 
       />
-      <h3 className='text-center m-4'>All Activity</h3>
+      <h3 className='text-center m-4 fw-bold'>All Activity</h3>
 
       <ActivityItem/>
       

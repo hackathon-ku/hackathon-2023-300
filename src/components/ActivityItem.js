@@ -39,9 +39,12 @@ const ActivityItem = () => {
               {item.actName}
             </Card.Title>
             <Card.Text className='text-start'>{item.actType} </Card.Text>
-            <Card.Text className='text-start'>{item.actDate} </Card.Text>
+            <div className='d-flex '>
+              <Card.Text className='text-start'>{item.actDate} </Card.Text>-ถึง-
+              <Card.Text className='text-start'>{item.actDateEnd} </Card.Text>
+            </div>
             <div className='d-flex justify-end'>
-              <ArrowDown onClick={() => handleToggle(index)}/>
+              <ArrowDown onClick={() => handleToggle(index)} />
             </div>
             <Collapse in={openIndex === index}>
               <div>
