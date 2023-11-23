@@ -49,7 +49,7 @@ const SubmissionPage = () => {
 
     return (
         <div>
-            <h3 className='text-center m-4'>Activity Submission</h3>
+            <h3 className='text-center m-4 fw-bold'>Activity Submission</h3>
             <div>
                 <Form className='m-5'>
                     <Form.Group className="mb-3" controlId="activity-title">
