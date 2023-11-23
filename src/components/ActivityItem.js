@@ -3,9 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import axios from 'axios';
 import '../index.css';
-import "@fontsource/istok-web"; // Defaults to weight 400
-import "@fontsource/istok-web/400.css"; // Specify weight
-import "@fontsource/istok-web/400-italic.css"; // Specify weight and style
 
 
 const ActivityItem = () => {
@@ -22,7 +19,7 @@ const ActivityItem = () => {
   return (
     <>
         {activityData.map((item) => (
-          <Card className='m-5 card-user'>
+          <Card className='m-4 card-user'>
             <div className='img-container'>
               <button className='img-mockup'>Image here</button>
             </div>
