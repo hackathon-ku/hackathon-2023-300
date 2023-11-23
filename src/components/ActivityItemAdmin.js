@@ -17,7 +17,7 @@ const ActivityItemAdmin = () => {
     return (
         <>
             {activityData.map((item) => (
-                    <Card className='m-5'>
+                    <Card className='card m-5'>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
                       <Card.Title>{item.Title}</Card.Title>

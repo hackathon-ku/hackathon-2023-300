@@ -34,6 +34,6 @@ body {
   margin: 3;
 }
 
-.card {
-  
+.card-user {
+  background-color: aqua;
 }
